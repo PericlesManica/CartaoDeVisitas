@@ -44,13 +44,38 @@ class AddCartaoVisitaActivity : AppCompatActivity(){
         }
     }
     fun corCartao(){
-        binding.azul.setOnClickListener { tilCor = "#2796EA" }
-        binding.amarelo.setOnClickListener { tilCor = "#E6CF3B" }
-        binding.verde.setOnClickListener { tilCor = "#49DA4E" }
-        binding.branco.setOnClickListener { tilCor = "#FFFFFFFF" }
-        binding.cinza.setOnClickListener { tilCor = "#858585" }
-        binding.laraja.setOnClickListener { tilCor = "#DA5A29" }
-        binding.rosa.setOnClickListener { tilCor = "#A549BF" }
-   }
+        binding.azul.setOnClickListener {
+            tilCor = "#9FC4F1"
+            toastCor()
+        }
+        binding.amarelo.setOnClickListener {
+            tilCor = "#F0E5A1"
+            toastCor()
+        }
+        binding.verde.setOnClickListener {
+            tilCor = "#ADE6AB"
+            toastCor()
+        }
+        binding.branco.setOnClickListener {
+            tilCor = "#FFFFFFFF"
+            toastCor()
+        }
+        binding.cinza.setOnClickListener {
+            tilCor = "#CECBCA"
+            toastCor()
+        }
+        binding.laraja.setOnClickListener {
+            tilCor = "#F1C197"
+            toastCor()
+        }
+        binding.rosa.setOnClickListener {
+            tilCor = "#E6ACEB"
+            toastCor()
+        }
+     }
+
+    fun toastCor(){
+        Toast.makeText(this, "Cor selecionada!", Toast.LENGTH_SHORT).show()
+    }
 
 }
