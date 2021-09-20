@@ -16,7 +16,7 @@
 
 ## Layout
 
-![img]()
+![img](https://github.com/PericlesManica/CartaoDeVisitas/blob/master/TelasCartaoVisitas.png)
 
 
 
